@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Mi primera pagina</title>
+     <link rel="stylesheet" href="../CSS/Estilo.css">
+</head>
+<body>
+       <header>
+        <h1>Encuesta</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../INDEX.html">Inicio</a></li>
+            <li><a href="Galeria.html">Galería</a></li>
+			<li><a href="Contactos.html">Contactos</a></li>
+            <li><a href="Musica.html">Musica</a></li>
+            <li><a href="Amistad.html">Encuesta</a></li>
+			<li><a href="Practicas.html">Practicas</a></li>
+        </ul>
+    </nav>
+    <main>
+      <section>
+		  <p>Si gustas tener un nuevo amigo con el que pasar el rato puedes ponerme tu nombre, tu numero y un mensaje bonito e incluso tus redes para que te pueda contactar o entrar a los vinculos que estan mas abajos</p>
+       		<form action="submit.php" method="post">
+        <ol>
+            <li>
+                <label for="pregunta1">¿Cuál es tu nombre completa</label>
+                <br>
+                <input name="pregunta1" type="text" required id="pregunta1" size="70">
+            </li>
+            <li>
+                <label for="pregunta2">Escribe tu numero telefonico&nbsp;</label>
+                <br>
+                <input name="pregunta2" type="text" required id="pregunta2" size="50">
+            </li>
+            <li>
+                <label for="pregunta3">¿Cuáles son tus hobbies?&nbsp; &nbsp;</label>
+                <br>
+                <input name="pregunta3" type="text" required id="pregunta3" size="50">
+            </li>
+			<li>
+                <label for="pregunta4">¿Cuál es tu postre favorito?</label>
+                <br>
+                <input name="pregunta4" type="text" required id="pregunta5" size="50">
+            </li>
+            <li>
+                <label for="pregunta5">¿Cuál es tu color favorito?</label>
+                <br>
+                <input name="pregunta5" type="color" required id="pregunta3" autocomplete="off">
+            </li>
+        </ol>
+</form>
+<form>
+            <textarea name="mensaje" id="mensaje" placeholder="Hablame más acerca de ti..." required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+      </section>
+     </main>
+     <footer>
+         <p><b>Creador de la pagina Sergio A. Labastida Gallardo</b></p>
+     </footer>
+</body>
+</html>
